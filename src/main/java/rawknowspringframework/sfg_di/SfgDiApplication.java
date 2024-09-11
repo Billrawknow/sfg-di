@@ -1,9 +1,9 @@
-package guru.springframework.sfgdi;
+package rawknowspringframework.sfg_di;
 
-import guru.springframework.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import rawknowspringframework.sfg_di.controllers.*;
 
 @SpringBootApplication
 public class SfgDiApplication {
@@ -35,5 +35,4 @@ public class SfgDiApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
 	}
-
 }

@@ -1,6 +1,6 @@
-package guru.springframework.sfgdi.controllers;
+package rawknowspringframework.sfg_di.controllers;
 
-import guru.springframework.sfgdi.services.GreetingService;
+import rawknowspringframework.sfg_di.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

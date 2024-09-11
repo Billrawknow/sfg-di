@@ -1,4 +1,4 @@
-package guru.springframework.sfgdi;
+package rawknowspringframework.sfg_di;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package guru.springframework.sfgdi.services;
+package rawknowspringframework.sfg_di.services;
 
 import org.springframework.stereotype.Service;
 
